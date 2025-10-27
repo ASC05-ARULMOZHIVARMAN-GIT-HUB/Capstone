@@ -43,7 +43,7 @@ public class SnapdealEndToEndCombinedTest extends BaseTest {
                     By.xpath("//iframe[contains(@id,'loginIframe')]")));
 
             WebElement mobileField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userName")));
-            mobileField.sendKeys("8148921824"); // Replace with valid mobile number
+            mobileField.sendKeys("9677748325"); // Replace with valid mobile number
             driver.findElement(By.id("checkUser")).click();
 
             test.info("Mobile number entered, waiting 40 seconds for manual OTP entry...");
@@ -318,3 +318,4 @@ public class SnapdealEndToEndCombinedTest extends BaseTest {
     }
     
 }
+
